@@ -1,3 +1,7 @@
 h1{
 	text-align: center;
 }
+div#main_head{
+	background-color: lightgrey;
+	padding: 20px 0 20px 0;
+}
