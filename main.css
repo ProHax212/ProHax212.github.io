@@ -1,7 +1,29 @@
-h1{
+h1#main_header{
 	text-align: center;
-}
-div#main_head{
-	background-color: lightgrey;
+	background-color: powderblue;
 	padding: 20px 0 20px 0;
+}
+div#header{
+	background-color:powderblue;
+    text-align:center;
+    padding:5px;
+}
+div#navigation{
+	line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;
+}
+div#section{
+	width:350px;
+    float:left;
+    padding:10px; 
+}
+div#footer{
+	background-color: powderblue;
+    clear:both;
+    text-align:center;
+    padding:5px; 
 }
