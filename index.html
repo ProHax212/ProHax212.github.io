@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+function test(){
+	document.getElementById("test").innerHTML = "Fuck You";
+}
+</script>
 <link rel="stylesheet" text="text/css" href="main.css"/>
 </head>
 <body>
@@ -24,7 +29,8 @@
 </div>
 
 <div id="section">
-	<p>This website will have a list of games to play.</p>
+	<p id="test">This website will have a list of games to play.</p>
+	<button type="button" onclick="test()">Click me for profit!</button>
 </div>
 
 <div id="footer">
